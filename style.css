@@ -5,6 +5,7 @@ body{font-family:'Heebo',Arial,sans-serif;font-weight:300;background:#0c0c0f rad
 a{color:inherit;text-decoration:none}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 img{display:block}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 b{font-weight:500}
 header{display:flex;justify-content:space-between;align-items:center;padding:18px 5vw}
 .brand{font-family:'Frank Ruhl Libre',serif;font-weight:400;font-size:26px;color:var(--gold)}
