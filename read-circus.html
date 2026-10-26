@@ -45,7 +45,7 @@
  document.documentElement.classList.add("js");
  document.querySelectorAll(".brow").forEach(function(r){
   var f=r.querySelectorAll("figure"),i=0,n=r.querySelector(".bi"),st=r.querySelector(".rstage");
-  function show(k){f[i].classList.remove("on");i=(k+f.length)%f.length;f[i].classList.add("on");n.textContent=i?("עמוד "+i+" מתוך 20"):"כריכה";var nx=f[(i+1)%f.length].querySelector("img");nx.loading="eager";}
+  function show(k){var d=k>i?1:-1;f[i].classList.remove("on","tn","tp");i=(k+f.length)%f.length;if(k===f.length||k<0)d=k<0?-1:1;var g=f[i];g.classList.remove("tn","tp");void g.offsetWidth;g.classList.add("on",d>0?"tn":"tp");n.textContent=i?("עמוד "+i+" מתוך 20"):"כריכה";var nx=f[(i+1)%f.length].querySelector("img");nx.loading="eager";}
   r.querySelector(".pn.next").addEventListener("click",function(){show(i+1);});
   r.querySelector(".pn.prev").addEventListener("click",function(){show(i-1);});
   var x=null;st.addEventListener("touchstart",function(e){x=e.touches[0].clientX;},{passive:true});

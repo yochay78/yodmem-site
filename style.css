@@ -109,6 +109,16 @@ footer{background:#2a2420!important;color:#d8c9b0;border-radius:16px 16px 0 0}fo
 .pcard{background:#fffdf6;border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:0 0 16px;max-width:60ch}.pcard h3{font-size:18px;margin-bottom:8px}
 .srow{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:0 0 12px}.srow .sn{flex:1 1 220px;font-size:18px}.srow img{border-radius:4px}
 .bview figure.cv img{height:min(74vh,700px)}
+
+.bview .rstage{display:block;width:fit-content;max-width:100%;margin:0 auto;padding:0!important;perspective:1800px}
+.bview .rstage .pn{top:50%!important;bottom:auto!important;transform:translateY(-50%);width:48px;height:48px;background:rgba(30,22,16,.55);color:#fff;border:1px solid rgba(255,255,255,.35);font-size:22px;z-index:3;backdrop-filter:blur(2px)}
+.bview .rstage .pn:hover{background:rgba(30,22,16,.8)}
+.bview .rstage .pn.next{left:10px!important;right:auto!important}.bview .rstage .pn.prev{right:10px!important;left:auto!important}
+.bview figure.tn{transform-origin:right center;animation:turnN .6s cubic-bezier(.3,.7,.3,1)}
+.bview figure.tp{transform-origin:left center;animation:turnP .6s cubic-bezier(.3,.7,.3,1)}
+@keyframes turnN{from{transform:rotateY(-85deg);opacity:.15;filter:brightness(.6)}to{transform:none;opacity:1;filter:none}}
+@keyframes turnP{from{transform:rotateY(85deg);opacity:.15;filter:brightness(.6)}to{transform:none;opacity:1;filter:none}}
+@media(prefers-reduced-motion:reduce){.bview figure.tn,.bview figure.tp{animation:none}}
 @media(prefers-reduced-motion:reduce){.n .t{animation:none}.n{animation-duration:60s!important}}
 header{background:rgba(243,234,217,.88);border-radius:0 0 18px 18px}
 .doc,main.shop>.how,main.shop>h2.sec{position:relative}
