@@ -256,3 +256,26 @@ main.shop>h2.sec,main.shop>.how{background:#fff9ef;color:#2a2420;font-size:17px;
 footer{background:rgba(243,234,217,.9)}
 @media(max-width:720px){.n{opacity:.4;font-size:13px;width:130px!important}.n:nth-child(2n){display:none}}
 .gimg{margin:0 0 20px}.gsm{max-width:420px;margin:24px auto}.gsm figcaption{font-size:.9em;color:var(--mute);text-align:center;margin-top:8px}.gimg img{width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(60,40,20,.25)}
+
+/* v2 design pass */
+@media(min-width:901px){header .nav .x{display:none}header .nav{flex-wrap:nowrap;gap:2px 22px}}
+header .nav{white-space:nowrap}
+.mq{display:none!important}
+.pod{max-width:640px;margin:0 auto 34px}.pod h2,main.shop>h2.sec{font-size:22px}
+.ptxt h3{margin:0 0 10px;font-size:20px}.pod .ptxt{background:#fffdf6;border-radius:14px;padding:18px 22px;box-shadow:0 1px 6px rgba(0,0,0,.08);font-size:19px;line-height:1.9}.pod .ptxt p{margin:0 0 .8em}
+.bks{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0 0 22px}
+.bk{display:flex;flex-direction:column;align-items:stretch;gap:8px;background:#fff9ef;border:1px solid var(--line);border-radius:14px;padding:14px}
+.bk .bkc img{width:100%;height:auto;aspect-ratio:669/982;object-fit:cover;border-radius:6px;box-shadow:0 4px 14px rgba(60,40,20,.2);display:block}
+.bk h3{font-size:16px;line-height:1.35;margin:4px 0 0;min-height:2.7em}.bk .bkb{display:flex;gap:8px;align-items:center}.bk .bkb .qbuy{flex:1;padding:0 8px}.bk .read{font-size:14px;text-align:center}
+.btn.addc{min-width:44px;padding:0 14px;font-size:15px;margin-inline-start:0!important}
+.btxt .qbuy{flex:1}
+@media(max-width:760px){.bks{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:8px;margin-inline:-5vw;padding-inline:5vw}.bk{flex:0 0 64%;scroll-snap-align:center}}
+.shc{display:flex;gap:8px;margin:0 0 12px}.shc button{min-height:44px;padding:0 18px;border-radius:22px;border:1px solid #c9b99c;background:#f1e6d0;color:#1d1a18;font:inherit;font-size:15px;cursor:pointer}.shc button.on{background:#1d1a18;color:#fff;border-color:#1d1a18}
+.poem .src{opacity:1}.poem .src .btn{margin-inline-start:6px}
+/* color roles: rust for primary actions, dark brown for headings, blue-brown for links */
+.doc h1,.doc h2,.aboutsec h2,main.shop>h2.sec,.pod h2{color:#2a1a14!important}
+.doc .link,.intro .link,.aboutsec .link,.hp .link,.read,.doc a:not(.btn):not(.read),.pod .link{color:#1f4f6b!important;text-decoration:underline;text-underline-offset:3px}
+.pnav a.link,.doc .tags a,.chips a{text-decoration:none!important}.doc .tags a{color:#2a1a14!important}
+html[data-theme="night"] .doc h1,html[data-theme="night"] .doc h2,html[data-theme="night"] .aboutsec h2,html[data-theme="night"] main.shop>h2.sec,html[data-theme="night"] .pod h2{color:#f3e9d6!important}
+html[data-theme="night"] .doc .link,html[data-theme="night"] .intro .link,html[data-theme="night"] .aboutsec .link,html[data-theme="night"] .hp .link,html[data-theme="night"] .read,html[data-theme="night"] .doc a:not(.btn):not(.read),html[data-theme="night"] .pod .link{color:#9cc3dd!important}
+html[data-theme="night"] .pod .ptxt,html[data-theme="night"] .bk{background:#3a2f28!important;color:#f3e9d6!important}
