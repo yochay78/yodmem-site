@@ -102,3 +102,4 @@ main.shop>h2.sec,main.shop>.how{background:rgba(243,234,217,.9);padding:8px 14px
 .brow,.bundle{background:rgba(255,249,239,.97)}
 footer{background:rgba(243,234,217,.9)}
 @media(max-width:720px){.n{opacity:.4;font-size:13px;width:130px!important}.n:nth-child(2n){display:none}}
+.gimg{margin:0 0 20px}.gimg img{width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(60,40,20,.25)}
