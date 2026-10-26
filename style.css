@@ -1,7 +1,7 @@
 :root{--gold:#a8432a;--text:#2a2420;--mute:#6b5f55;--line:rgba(60,40,20,.15);--card:#fff9ef;--r:14px}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:'Heebo',Arial,sans-serif;font-weight:300;background:#f3ead9;color:var(--text);line-height:1.75;font-size:17px;direction:rtl;text-align:right;min-height:100dvh}
+body{font-family:'Heebo',Arial,sans-serif;font-weight:400;background:#f3ead9;color:var(--text);line-height:1.75;font-size:17px;direction:rtl;text-align:right;min-height:100dvh}
 a{color:inherit;text-decoration:none}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 img{display:block}
@@ -15,7 +15,7 @@ header{display:flex;justify-content:space-between;align-items:center;padding:18p
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 24px;background:var(--gold);color:#fff;font-weight:500;font-size:16px;border:1px solid var(--gold);border-radius:var(--r);cursor:pointer;font-family:inherit}
 .btn:hover{background:transparent;color:var(--gold)}
 .soon{display:inline-flex;align-items:center;min-height:46px;color:var(--mute);font-size:15px}
-main.shop{max-width:1240px;margin:0 auto;padding:12px 5vw 56px}
+main.shop{max-width:calc(960px + 10vw);margin:0 auto;padding:12px 5vw 56px}
 h2.sec{font-weight:500;font-size:26px;color:var(--gold);margin:0 0 20px}
 .poems{margin:8px 0 72px;text-align:center}
 .pstage{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center;padding:28px 56px;background:var(--card);border:1px solid var(--line);border-radius:var(--r)}
@@ -42,7 +42,7 @@ h3{font-size:18px;font-weight:500;line-height:1.35}
 footer{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between;padding:22px 5vw;color:var(--mute);font-size:15px}
 footer nav{display:flex;gap:22px;flex-wrap:wrap}
 footer a{min-height:44px;display:inline-flex;align-items:center}
-.doc{max-width:680px;margin:0 auto;padding:24px 5vw 56px}
+.doc{max-width:960px;margin:0 auto;padding:24px 5vw 56px}
 .doc h1{font-weight:500;font-size:28px;line-height:1.4;color:var(--gold);margin-bottom:22px}
 .doc h2{font-size:20px;font-weight:500;margin:30px 0 8px}
 .doc p{margin-bottom:1em}
@@ -137,12 +137,18 @@ button,summary,input,select,textarea{font-family:inherit}
 .bview .rstage .pn{width:42px!important;height:42px!important;background:rgba(255,255,255,.88)!important;color:#2a2420!important;border:none!important;box-shadow:0 2px 10px rgba(0,0,0,.35);font-size:30px!important;line-height:1;padding:0 0 4px;backdrop-filter:none!important}
 .bview .rstage .pn:hover{background:#fff!important}
 @media(max-width:720px){.bview .rstage .pn{width:38px!important;height:38px!important;font-size:27px!important}.bview .rstage .pn.next{left:6px!important}.bview .rstage .pn.prev{right:6px!important}}
+
+main.shop>*{box-sizing:border-box}main.shop>.intro,main.shop>.aboutsec,main.shop>.bundle,main.shop>.brow,main.shop>h2.sec,main.shop>.pc,main.shop>.poems,main.shop>.bitnote2{width:100%;max-width:100%}
+.doc{box-sizing:border-box}.doc p{max-width:70ch}.doc .brow,.doc .pcard{max-width:100%}
+.intro,.aboutsec{max-width:100%!important;font-size:18px;color:#1f1a16}
+.hp{font-size:18px;line-height:1.8;color:#1f1a16}.hp p{margin:0}.hp .hsrc{font-size:16px;color:#4a3d33;margin-top:10px}
+.bitnote,.bitnote2{color:#4a3d33!important}
 @media(prefers-reduced-motion:reduce){.n .t{animation:none}.n{animation-duration:60s!important}}
 header{background:rgba(243,234,217,.88);border-radius:0 0 18px 18px}
 .doc,main.shop>.how,main.shop>h2.sec{position:relative}
 .doc{background:rgba(247,239,222,.95);border-radius:14px;margin-top:16px;margin-bottom:24px}
-main.shop>h2.sec,main.shop>.how{background:#fff9ef;color:#2a2420;font-size:17px;line-height:1.7;padding:12px 16px;border-radius:10px;border:1px solid #e0d2b4;width:fit-content;max-width:100%}
-.brow,.bundle{background:rgba(255,249,239,.97)}
+main.shop>h2.sec,main.shop>.how{background:#fff9ef;color:#2a2420;font-size:17px;line-height:1.7;padding:12px 16px;border-radius:10px;border:1px solid #e0d2b4;width:100%;max-width:100%}
+.brow,.bundle{background:#fff9ef}
 footer{background:rgba(243,234,217,.9)}
 @media(max-width:720px){.n{opacity:.4;font-size:13px;width:130px!important}.n:nth-child(2n){display:none}}
 .gimg{margin:0 0 20px}.gsm{max-width:420px;margin:24px auto}.gsm figcaption{font-size:.9em;color:var(--mute);text-align:center;margin-top:8px}.gimg img{width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(60,40,20,.25)}
