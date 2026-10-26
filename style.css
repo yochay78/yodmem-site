@@ -68,3 +68,8 @@ bdi{unicode-bidi:isolate}
  .rstage{padding:0 0 56px}.rd .pn{top:auto;bottom:0}.rd .pn.next{left:calc(50% - 52px)}.rd .pn.prev{right:calc(50% - 52px)}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.ptxt p{font-family:'Frank Ruhl Libre',serif;font-size:1.2rem;line-height:1.9;margin:0 0 1.4em}
+.poem .src{margin-top:2em;opacity:.85}
+.plist{list-style:none;padding:0}.plist li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.plist a{font-size:1.1rem}
