@@ -170,8 +170,9 @@ header,footer{background:#1f1a16!important}
 .read{border-color:#9a3a22!important}
 .hp{border-right-color:#9a3a22}
 .btn{background:#9a3a22!important;border-color:#9a3a22!important;color:#fff!important}
-.n{background:#fffaf0!important;background-image:none!important;opacity:.5!important;color:#4a3d33!important}
-@media(max-width:720px){.n{opacity:.38!important}}
+.n{background:#fffaf0!important;background-image:none!important;opacity:.32!important;color:#4a3d33!important}
+@media(max-width:720px){.n{opacity:.24!important}}
+.n .t{animation:none!important}
 header .brand{color:#f2b49a}
 
 /* night mode */
@@ -185,7 +186,7 @@ html[data-theme="night"] .price,html[data-theme="night"] .doc h1,html[data-theme
 html[data-theme="night"] .read{border-color:#e9a583!important}
 html[data-theme="night"] .hp{border-right-color:#e9a583}
 html[data-theme="night"] .btn{background:#c4553a!important;border-color:#c4553a!important;color:#fff!important}
-html[data-theme="night"] .n{background:#3a312a!important;color:#e8dcc6!important;opacity:.5!important}
+html[data-theme="night"] .n{background:#3a312a!important;color:#e8dcc6!important;opacity:.35!important}
 html[data-theme="night"] .tm{color:#efe3cc}
 .tm{background:none;border:1px solid rgba(255,255,255,.3);color:#efe3cc;width:40px;height:40px;border-radius:50%;font-size:20px;cursor:pointer;line-height:1;flex:none}.tm:hover{background:rgba(255,255,255,.12)}
 @media(prefers-reduced-motion:reduce){.n .t{animation:none}.n{animation-duration:60s!important}}
