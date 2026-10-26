@@ -86,3 +86,4 @@ html:not(.js) .bview figure{display:block;margin-bottom:12px}html:not(.js) .bvie
 @media(max-width:720px){.brow{grid-template-columns:96px 1fr;grid-template-areas:"cov txt" "view view";gap:14px}.bcov{height:auto;width:96px}
  .bview figure img{height:auto;max-height:70vh}
  .bview .rstage{padding:0 0 56px}.bview .pn{top:auto;bottom:0}.bview .pn.next{left:calc(50% - 52px)}.bview .pn.prev{right:calc(50% - 52px)}}
+.pstage{background:#16151a!important;border-color:#16151a!important}.pstage figcaption{color:#b4b2a8}.pstage .pn{color:#efdc9a;border-color:rgba(255,255,255,.2)}.pstage .pn:hover{background:rgba(255,255,255,.1)}
