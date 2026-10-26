@@ -207,7 +207,7 @@ footer{border-radius:0!important}
 .ht{justify-self:start;max-width:420px}.ht .hl{font-size:16px;opacity:.8}.ht h2{font-size:clamp(26px,3vw,42px);font-weight:500;line-height:1.2;margin:6px 0 10px}.hp2{display:block;font-size:20px;margin-bottom:16px}
 .hbtn{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;background:#1d1a18;color:#fff!important;border-radius:999px;font-size:18px;font-weight:500}.hbtn:hover{background:#000}
 .hc img{height:min(390px,52vh);width:auto;box-shadow:0 12px 34px rgba(0,0,0,.35)}
-.hq{justify-self:end;max-width:300px;font-size:19px;line-height:1.7;font-weight:500;margin:0}
+.hq{justify-self:end;max-width:400px;font-size:17px;line-height:1.75}.hq b{display:block;font-size:21px;font-weight:500;margin-bottom:8px}.hq p{margin:0;opacity:.92}
 .hn{position:absolute;bottom:18px;width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,.85);color:#1d1a18;font-size:22px;cursor:pointer;z-index:3}
 .hprev{left:calc(4vw + 56px)}.hnext{left:4vw}
 .hd{position:absolute;bottom:26px;right:7vw;display:flex;gap:8px;z-index:3}.hd i{width:11px;height:11px;border-radius:50%;background:rgba(120,120,120,.55);cursor:pointer;display:block}.hd i.on{background:#fff;box-shadow:0 0 0 2px #1d1a18}
