@@ -143,6 +143,21 @@ main.shop>*{box-sizing:border-box}main.shop>.intro,main.shop>.aboutsec,main.shop
 .intro,.aboutsec{max-width:100%!important;font-size:18px;color:#1f1a16}
 .hp{font-size:18px;line-height:1.8;color:#1f1a16}.hp p{margin:0}.hp .hsrc{font-size:16px;color:#4a3d33;margin-top:10px}
 .bitnote,.bitnote2{color:#4a3d33!important}
+
+/* dark boxes */
+.doc,.intro,.aboutsec,.brow,.bundle,main.shop>h2.sec,.how,.bitnote2,.srow,.pcard,details.pc{--text:#f3e9d6;--mute:#d8c9b0;--gold:#f2b49a;--line:rgba(255,255,255,.16);background:#3a2f28!important;color:#f3e9d6!important;border-color:rgba(255,255,255,.14)!important}
+.intro,.aboutsec,.hp,.hp .hsrc,.bitnote,.bitnote2,.how,.lead,.doc p,.doc li{color:#f3e9d6!important}
+.pcard{background:#44372e!important}
+.btxt h3,.pcard h3 a,.sn a{color:#f3e9d6!important}
+.price{color:#f2b49a!important}
+.doc h1,.doc h2,.aboutsec h2,main.shop>h2.sec{color:#f2b49a!important}
+.doc .link,.intro .link,.aboutsec .link,.hp .link,.read{color:#f2b49a!important;border-color:#f2b49a!important}
+.btn{background:#b64b30!important;border-color:#b64b30!important;color:#fff!important}
+.hp{border-right-color:#f2b49a}
+.n{opacity:.38!important}
+@media(max-width:720px){.n{opacity:.28!important}}
+.doc a:not(.btn):not(.read){color:#f2b49a}
+.doc .small,.small,.pc2{color:#d8c9b0!important}
 @media(prefers-reduced-motion:reduce){.n .t{animation:none}.n{animation-duration:60s!important}}
 header{background:rgba(243,234,217,.88);border-radius:0 0 18px 18px}
 .doc,main.shop>.how,main.shop>h2.sec{position:relative}
