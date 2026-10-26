@@ -25,7 +25,7 @@ function esc(t){return t.replace(/&/g,"&amp;").replace(/</g,"&lt;")}
 function hl(line,q){var n=nz(line),i=n.indexOf(q);if(i<0)return esc(line);var a=line.replace(/[\u0591-\u05C7]/g,"");var j=nz(a).indexOf(q);return esc(a.slice(0,j))+"<mark>"+esc(a.slice(j,j+q.length))+"</mark>"+esc(a.slice(j+q.length))}
 function run(){var q=nz(f.value);if(!q){o.innerHTML="";m.textContent="כתבו מילה, למשל אהבה, אלהים, ירושלים.";return}
  var r=[];D.forEach(function(p){var ls=p.x.split("\n").filter(function(l){return l.trim()}),hit=ls.filter(function(l){return nz(l).indexOf(q)>=0}),inT=nz(p.t).indexOf(q)>=0;if(hit.length||inT)r.push({p:p,h:hit,t:inT})});
- m.textContent=r.length?("נמצאו "+r.length+" שירים עם המילה \u201e"+f.value.trim()+"\u201d"):"לא נמצאו שירים עם המילה הזאת. אפשר לנסות מילה אחרת.";
+ m.textContent=r.length?("נמצאו "+r.length+" שירים עם המילה \u201e"+f.value.trim()+"\u201d"):"המילה הזאת לא מופיעה בשירים שכבר באתר (כרגע "+D.length+" שירים מתוך הספרים, ועוד נוספים). אפשר לנסות מילה אחרת.";
  o.innerHTML=r.map(function(x){return '<li><a href="'+x.p.u+'">'+esc(x.p.t)+'</a> <span class="small">מתוך '+esc(x.p.b)+'</span>'+x.h.slice(0,3).map(function(l){return '<p class="sl">'+hl(l,q)+'</p>'}).join("")+'</li>'}).join("");
  try{history.replaceState(null,"","?q="+encodeURIComponent(f.value.trim()))}catch(e){}
  clearTimeout(window._st);var tq=f.value.trim();window._st=setTimeout(function(){if(tq.length>1&&window.gtag)gtag("event","view_search_results",{search_term:tq,results:r.length,source:"search"})},1500)}
