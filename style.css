@@ -259,6 +259,7 @@ footer{background:rgba(243,234,217,.9)}
 
 .topd{margin:0 0 18px}.topd summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700;font-size:18px}
 footer nav{gap:0 18px}footer nav a{min-height:40px;display:inline-flex;align-items:center}
+@media(max-width:760px){#lf .chips{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;margin-inline:-5vw;padding:2px 5vw 8px}#lf .chips button{flex:0 0 auto;white-space:nowrap}}
 /* v2 design pass */
 @media(min-width:901px){header .nav .x{display:none}header .nav{flex-wrap:nowrap;gap:2px 22px}}
 header .nav{white-space:nowrap}
