@@ -172,7 +172,8 @@ header,footer{background:#1f1a16!important}
 .btn{background:#9a3a22!important;border-color:#9a3a22!important;color:#fff!important}
 .n{background:#fffaf0!important;background-image:none!important;opacity:.32!important;color:#4a3d33!important}
 @media(max-width:720px){.n{opacity:.24!important}}
-.n .t{animation:none!important}
+.n,.n .t{animation:none!important}.n{font-size:13px!important}
+@media(max-width:1279px){.bgn{display:none}}
 header .brand{color:#f2b49a}
 
 /* night mode */
