@@ -91,8 +91,10 @@ html:not(.js) .bview figure{display:block;margin-bottom:12px}html:not(.js) .bvie
 body{position:relative;min-height:100vh;background:#eadfc6!important}
 .bgn{position:fixed;inset:0;overflow:hidden;z-index:-1;pointer-events:none}
 .n{position:absolute;padding:12px 14px;font-family:'Frank Ruhl Libre',serif;font-size:15px;line-height:1.6;color:#4a3d33;box-shadow:0 6px 14px rgba(70,50,20,.22);opacity:.55;transform:rotate(var(--r));animation:drift ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(-5px)}to{transform:translateY(6px)}}
+.n .t{animation:bob 7s ease-in-out infinite alternate}.cut{opacity:.6;letter-spacing:2px}
 @keyframes drift{to{transform:translate(var(--dx),var(--dy)) rotate(calc(var(--r) + var(--dr)))}}
-@media(prefers-reduced-motion:reduce){.n{animation:none}}
+@media(prefers-reduced-motion:reduce){.n,.n .t{animation:none}}
 header{background:rgba(243,234,217,.88);border-radius:0 0 18px 18px}
 .doc,main.shop>.how,main.shop>h2.sec{position:relative}
 .doc{background:rgba(247,239,222,.95);border-radius:14px;margin-top:16px;margin-bottom:24px}
