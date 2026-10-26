@@ -72,7 +72,21 @@
  document.documentElement.classList.add("js");
  document.querySelectorAll(".brow").forEach(function(r){
   var f=r.querySelectorAll("figure"),i=0,n=r.querySelector(".bi"),st=r.querySelector(".rstage");
-  function show(k){var d=k>i?1:-1;f[i].classList.remove("on","tn","tp");i=(k+f.length)%f.length;if(k===f.length||k<0)d=k<0?-1:1;var g=f[i];g.classList.remove("tn","tp");void g.offsetWidth;g.classList.add("on",d>0?"tn":"tp");n.textContent=i?("עמוד "+i+" מתוך 20"):"כריכה";var nx=f[(i+1)%f.length].querySelector("img");nx.loading="eager";}
+  var busy=false;
+  function setTxt(){n.textContent=i?("עמוד "+i+" מתוך 20"):"כריכה";}
+  function show(k){
+   if(busy)return;
+   var nxt=k>i||(i===f.length-1&&k===f.length),old=f[i],j=(k+f.length)%f.length,nf=f[j];
+   if(nf.querySelector("img").loading==="lazy")nf.querySelector("img").loading="eager";
+   var still=matchMedia("(prefers-reduced-motion:reduce)").matches;
+   function swap(){old.classList.remove("on");nf.classList.add("on");i=j;setTxt();var nn=f[(i+1)%f.length].querySelector("img");nn.loading="eager";}
+   if(still){swap();return;}
+   busy=true;
+   var leaf=document.createElement("div");leaf.className="leaf "+(nxt?"lout":"lin");
+   var li=document.createElement("img");li.src=(nxt?old:nf).querySelector("img").src;li.alt="";leaf.appendChild(li);st.appendChild(leaf);
+   if(nxt)swap();
+   leaf.addEventListener("animationend",function(){if(!nxt)swap();leaf.remove();busy=false;},{once:true});
+  }
   r.querySelector(".pn.next").addEventListener("click",function(){show(i+1);});
   r.querySelector(".pn.prev").addEventListener("click",function(){show(i-1);});
   var x=null;st.addEventListener("touchstart",function(e){x=e.touches[0].clientX;},{passive:true});
