@@ -282,3 +282,13 @@ header .nav{white-space:nowrap}
 html[data-theme="night"] .doc h1,html[data-theme="night"] .doc h2,html[data-theme="night"] .aboutsec h2,html[data-theme="night"] main.shop>h2.sec,html[data-theme="night"] .pod h2{color:#f3e9d6!important}
 html[data-theme="night"] .doc .link,html[data-theme="night"] .intro .link,html[data-theme="night"] .aboutsec .link,html[data-theme="night"] .hp .link,html[data-theme="night"] .read,html[data-theme="night"] .doc a:not(.btn):not(.read),html[data-theme="night"] .pod .link{color:#9cc3dd!important}
 html[data-theme="night"] .pod .ptxt,html[data-theme="night"] .bk{background:#3a2f28!important;color:#f3e9d6!important}
+/* buttons v3: mustard + ink frame */
+html .btn,html[data-theme="night"] .btn,html .hbtn,html[data-theme="night"] .hbtn,html .hsr .btn{background:#e0a82e!important;color:#1d1a18!important;border:2px solid #1d1a18!important;border-radius:12px!important;box-shadow:3px 3px 0 #1d1a18;font-weight:700;transition:transform .08s,box-shadow .08s}
+html .btn:hover,html .hbtn:hover{background:#ebb840!important;color:#1d1a18!important;transform:translate(1px,1px);box-shadow:2px 2px 0 #1d1a18}
+html .btn:active,html .hbtn:active{transform:translate(3px,3px);box-shadow:0 0 0 #1d1a18}
+html .btn.addc,html[data-theme="night"] .btn.addc{background:#fff!important;color:#1d1a18!important;border:2px solid #1d1a18!important}
+html .chips button,html .chips a,html .shc button{border:2px solid #1d1a18!important;background:#fff!important;color:#1d1a18!important;border-radius:10px!important}
+html .chips button.on,html .shc button.on{background:#e0a82e!important;color:#1d1a18!important;box-shadow:2px 2px 0 #1d1a18}
+#cbar,body>#cbar{background:#1d1a18!important}#cbar .cbo b{color:#e0a82e}
+html .btn.hs-dummy{}
+html[data-theme="night"] .btn,html[data-theme="night"] .hbtn{box-shadow:3px 3px 0 #000;border-color:#f0e6d4!important}
