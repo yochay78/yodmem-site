@@ -318,3 +318,7 @@ html[data-theme="night"] .intro2 h2{color:#f3e9d6!important}html[data-theme="nig
 .introx{margin:6px 0 30px;max-width:760px}.introx h2{font-size:38px;font-weight:800;line-height:1.25;margin:0 0 6px;color:#2a1a14!important}.introx p{font-size:26px;line-height:1.5;margin:0;font-weight:500}
 @media(max-width:760px){.introx h2{font-size:30px}.introx p{font-size:21px}}
 html[data-theme="night"] .introx h2{color:#f3e9d6!important}
+
+/* pod full width */
+.pod{max-width:none!important;margin:48px 0 34px!important}.pod .ptxt{box-sizing:border-box;width:100%}
+.pod .ptxt{border:1px solid rgba(60,40,20,.18);box-shadow:none!important}
