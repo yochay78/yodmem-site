@@ -377,3 +377,4 @@ header .brand .blogo{height:92px!important;width:auto;background:#f3e3b0;border-
 @media(max-width:900px){header .brand .blogo{height:72px!important}}
 .idband{box-shadow:none}
 header .brand .blogo{background:none!important;padding:0!important;border-radius:0!important}
+header .brand .blogo{filter:drop-shadow(0 0 1px #f3e3b0) drop-shadow(0 0 2px #f3e3b0) drop-shadow(0 0 5px rgba(243,227,176,.75))}
