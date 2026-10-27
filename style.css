@@ -347,3 +347,10 @@ header .dd[open] summary{color:#f2b49a}
 .sitecards span{font-size:.92em;opacity:.8}
 header{z-index:100!important}
 .sitecards .g{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.idband{display:flex;align-items:center;justify-content:center;gap:28px;margin:0;padding:22px 5vw;background:linear-gradient(135deg,#f3e3b0,#e8cf8e);color:#1d1a18}
+.idband img{width:170px;height:170px;border-radius:50%;object-fit:cover;object-position:50% 20%;flex:none;border:4px solid #fff7dc}
+.idband h2{margin:0;font-size:clamp(34px,6vw,56px);line-height:1.05;border-bottom:4px solid #b9462f;display:inline-block;padding-bottom:4px}
+.idband p{margin:10px 0 6px;font-size:clamp(20px,3.4vw,30px);font-weight:700}
+.idband nav{display:flex;flex-wrap:wrap;gap:6px 18px}.idband nav a{color:#9c3520;font-weight:700;font-size:clamp(16px,2.6vw,22px);text-decoration:none;min-height:44px;display:flex;align-items:center}
+.idband nav a:hover{text-decoration:underline}
+@media(max-width:600px){.idband{flex-direction:column;text-align:center;gap:14px;padding:18px 14px}.idband img{width:140px;height:140px}.idband nav{justify-content:center}}
