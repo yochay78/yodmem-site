@@ -325,3 +325,4 @@ html[data-theme="night"] .introx h2{color:#f3e9d6!important}
 .podsh{margin:12px 0 0}.podsh .btn{min-width:150px}
 main.shop>.bundle{margin:0 0 16px!important}main.shop>.bundle+.aboutsec{margin-top:28px!important}
 
+.podb{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 0}.podb .btn{min-height:44px}.podb .chip{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:10px;border:2px solid #1d1a18;background:#fff;color:#1d1a18!important;font-weight:700;font-size:15px;text-decoration:none!important}.podb .chip:hover{background:#e0a82e}#podm:empty{display:none}#podm{margin:6px 0 0}
