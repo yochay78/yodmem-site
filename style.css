@@ -307,3 +307,9 @@ html[data-theme="night"] .lnk{color:#9cc3dd}
 html[data-theme="night"] .lnk{color:#9cc3dd}
 .bk .bkb{flex-direction:column;align-items:stretch;gap:0}.bk .bkb .qbuy{width:100%;flex:none}.bk .bkb .lnk{align-self:center}
 .bundle .lnk{margin-inline-start:6px}
+
+/* intro v2 */
+.intro2{padding:22px 24px!important;font-size:18px}.intro2 .ik{font-size:13px;font-weight:700;color:#9a3a22;margin:0 0 6px}.intro2 h2{font-size:28px;font-weight:800;line-height:1.25;margin:0 0 12px;color:#2a1a14!important}.intro2>p{max-width:46ch;line-height:1.75}
+.intro2 .hp2{margin:16px 0;padding:14px 18px;background:#fffdf6;border-radius:12px;border-right:4px solid #e0a82e;max-width:46ch}.intro2 .hp2 p{margin:0;font-size:20px;line-height:1.7;font-weight:600}.intro2 .hp2 .hsrc{font-size:13px;font-weight:400;margin-top:8px;color:#555}
+.intro2 .chp{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0!important;max-width:none!important}.intro2 .chip{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:10px;border:2px solid #1d1a18;background:#fff;color:#1d1a18!important;font-weight:700;font-size:15px;text-decoration:none!important}.intro2 .chip:hover{background:#e0a82e}
+html[data-theme="night"] .intro2 h2{color:#f3e9d6!important}html[data-theme="night"] .intro2 .hp2{background:#44372e}html[data-theme="night"] .intro2 .hp2 .hsrc{color:#d8c9b0}
