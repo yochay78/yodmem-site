@@ -37,5 +37,5 @@
 
 ## מרכז ידע וקורס כתיבה
 - [מרכז ידע: שירה עברית](https://yodmem.com/merkaz-yeda.html): מדריכים על תולדות השירה העברית, משוררים, סוגי שירה, מונחים וניתוח שיר.
-- [קורס כתיבת שירה אונליין (חינם)](https://yodmem.com/kurs-ktivat-shira.html): תשעה שיעורים עם תרגילים.
+- [קורס כתיבת שירה אונליין (חינם)](https://yodmem.com/kurs-ktivat-shira.html): עשרה שיעורים עם תרגילים.
 - [Modern Hebrew Poetry: A Short Guide](https://yodmem.com/modern-hebrew-poetry.html): English guide.
