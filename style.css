@@ -354,3 +354,9 @@ header{z-index:100!important}
 .idband nav{display:flex;flex-wrap:wrap;gap:6px 18px}.idband nav a{color:#9c3520;font-weight:700;font-size:clamp(16px,2.6vw,22px);text-decoration:none;min-height:44px;display:flex;align-items:center}
 .idband nav a:hover{text-decoration:underline}
 @media(max-width:600px){.idband{flex-direction:column;text-align:center;gap:14px;padding:18px 14px}.idband img{width:140px;height:140px}.idband nav{justify-content:center}}
+.idband nav{gap:0;align-items:center}
+.idband nav a{color:#1d1a18;font-weight:500;text-decoration:none;padding:0 2px;border-bottom:1px solid rgba(29,26,24,.45);min-height:0;display:inline-block;line-height:1.5}
+.idband nav a+a{margin-inline-start:26px;position:relative}
+.idband nav a+a::before{content:"·";position:absolute;inset-inline-start:-17px;top:0;border:0;color:#1d1a18}
+.idband nav a:hover{border-bottom-color:#1d1a18;text-decoration:none}
+@media(max-width:600px){.idband nav a{padding:10px 2px}}
