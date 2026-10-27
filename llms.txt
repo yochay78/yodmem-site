@@ -15,6 +15,7 @@
 - [שירים | יוד מם שירה עברית חדשה](https://yodmem.com/shirim.html): שירים שלמים מתוך הספרים
 
 ## שירה עברית
+- [מי הוא יוד מם](https://yodmem.com/yod-mem.html): עובדות, ספרים ונושאים
 - [מהי שירה עברית חדשה](https://yodmem.com/shira-ivrit-chadasha.html)
 - [שירה עברית מודרנית: משוררים וציוני דרך](https://yodmem.com/shira-ivrit-moderanit.html)
 - [איך קוראים שיר](https://yodmem.com/eich-korim-shir.html)
@@ -30,3 +31,6 @@
 ## מידע לקונים
 - [תקנון, משלוחים והחזרות](https://yodmem.com/terms.html): משלוח בדואר רשום תוך 7 ימי עסקים, איסוף עצמי בירושלים, תשלום באפליקציית ביט
 - [פרטיות](https://yodmem.com/privacy.html)
+
+## מידע מורחב
+- [llms-full.txt](https://yodmem.com/llms-full.txt): תקציר מלא של האתר, הספרים, ההגדרות והשאלות הנפוצות במקום אחד
