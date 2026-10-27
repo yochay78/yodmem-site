@@ -363,3 +363,6 @@ header{z-index:100!important}
 .idband{background:#ecd391 url(img/idband-bg.jpg) center/cover no-repeat;min-height:240px}
 @media(max-width:600px){.idband{background-position:center}}
 .idband p.idt{font-size:clamp(15px,2.3vw,18px);font-weight:400;margin:2px 0 8px;max-width:600px;line-height:1.55}
+@media(min-width:901px){header{display:flex!important;align-items:center;gap:18px}header .nav{order:1;justify-self:auto}header .hact{order:2;margin-inline-start:auto}header .brand{order:3;text-align:start}}
+@media(min-width:901px){header .brand{font-size:46px!important;line-height:1!important}header .brand small{font-size:.4em!important;margin-top:6px!important;letter-spacing:.02em}}
+@media(max-width:900px){header .brand{font-size:42px!important}header .brand small{font-size:.38em!important}}
