@@ -34,3 +34,8 @@
 
 ## מידע מורחב
 - [llms-full.txt](https://yodmem.com/llms-full.txt): תקציר מלא של האתר, הספרים, ההגדרות והשאלות הנפוצות במקום אחד
+
+## מרכז ידע וקורס כתיבה
+- [מרכז ידע: שירה עברית](https://yodmem.com/merkaz-yeda.html): מדריכים על תולדות השירה העברית, משוררים, סוגי שירה, מונחים וניתוח שיר.
+- [קורס כתיבת שירה אונליין (חינם)](https://yodmem.com/kurs-ktivat-shira.html): שמונה שיעורים עם תרגילים.
+- [Modern Hebrew Poetry: A Short Guide](https://yodmem.com/modern-hebrew-poetry.html): English guide.
