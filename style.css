@@ -360,3 +360,5 @@ header{z-index:100!important}
 .idband nav a+a::before{content:"·";position:absolute;inset-inline-start:-17px;top:0;border:0;color:#1d1a18}
 .idband nav a:hover{border-bottom-color:#1d1a18;text-decoration:none}
 @media(max-width:600px){.idband nav a{padding:10px 2px}}
+.idband{background:#ecd391 url(img/idband-bg.jpg) center/cover no-repeat;min-height:240px}
+@media(max-width:600px){.idband{background-position:center}}
