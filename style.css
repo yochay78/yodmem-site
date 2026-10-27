@@ -375,3 +375,15 @@ header .brand small{display:block}
 @media(min-width:601px){.idband{align-items:center;padding:20px 5vw}.idband img{width:210px;height:210px}.idband h2{font-size:clamp(28px,3vw,38px);padding-bottom:2px;border-bottom-width:3px}.idband p{font-size:clamp(17px,1.7vw,21px);margin:6px 0 4px}.idband p.idt{font-size:clamp(13px,1.2vw,15.5px);line-height:1.45;max-width:640px;margin:2px 0 4px}.idband nav a{font-size:clamp(14px,1.3vw,17px);padding:0 2px;min-height:0}.idband nav a+a{margin-inline-start:22px}}
 header .brand .blogo{height:92px!important;width:auto;background:#f3e3b0;border-radius:14px;padding:4px 8px}
 @media(max-width:900px){header .brand .blogo{height:72px!important}}
+/* כותרת בצבע קלף (מצב יום) */
+html:not([data-theme="night"]) header{background:linear-gradient(135deg,#f6e8bd,#ecd391)!important;border-bottom:1px solid rgba(29,26,24,.25)}
+html:not([data-theme="night"]) header .nav>a,html:not([data-theme="night"]) header .dd>summary{color:#1d1a18}
+html:not([data-theme="night"]) header .nav>a:hover,html:not([data-theme="night"]) header .dd>summary:hover,html:not([data-theme="night"]) header .dd[open]>summary{color:#9c3520}
+html:not([data-theme="night"]) header .sb,html:not([data-theme="night"]) header .cb,html:not([data-theme="night"]) header .tm{color:#1d1a18;border-color:rgba(29,26,24,.4)}
+html:not([data-theme="night"]) header .sb:hover,html:not([data-theme="night"]) header .cb:hover,html:not([data-theme="night"]) header .tm:hover{background:rgba(29,26,24,.08)}
+html:not([data-theme="night"]) header .mb{border-color:rgba(29,26,24,.4)}
+html:not([data-theme="night"]) header .mb span{background:#1d1a18}
+html:not([data-theme="night"]) header .brand .blogo{background:none;padding:0;border-radius:0}
+html:not([data-theme="night"]) header.mopen .nav a,html:not([data-theme="night"]) header.mopen .nav summary{border-bottom-color:rgba(29,26,24,.18)}
+html:not([data-theme="night"]) header.mopen .dd>div a{color:#1d1a18}
+.idband{box-shadow:none}
