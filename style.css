@@ -370,3 +370,5 @@ header .brand{display:flex!important;align-items:center;gap:12px}
 header .brand .blogo{height:64px;width:auto;flex:none}
 header .brand small{display:block}
 @media(max-width:900px){header .brand{justify-content:center}header .brand .blogo{height:56px}}
+@media(min-width:901px){header .brand{order:1}header .nav{order:2;margin-inline-start:28px}header .hact{order:3;margin-inline-start:auto}header .brand span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}header .brand .blogo{height:56px}}
+@media(max-width:900px){header .brand span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}header .brand .blogo{height:60px}}
