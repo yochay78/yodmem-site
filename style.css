@@ -334,3 +334,16 @@ main.shop>.bundle{margin:0 0 16px!important}main.shop>.bundle+.aboutsec{margin-t
 .srow>img{width:auto;height:84px}.srow .bimg{height:70px!important}
 @media(max-width:600px){.srow{grid-template-columns:auto 1fr;grid-template-areas:"img sn" "img price" "q q" "a a"}.srow .qbuy{width:100%}.srow>img{height:76px}.srow .sn{font-size:17px}}
 html[data-theme="night"] .srow .sn a{color:#f3e9d6!important}html[data-theme="night"] .srow .price{color:#f2b49a}
+.dd>div a.sub{padding-right:26px;font-size:.92em;opacity:.9}
+header .dd[open] summary{color:#f2b49a}
+@media(max-width:900px){header.mopen .dd>div{position:static;background:transparent;border:0;box-shadow:none;padding:0 0 4px;min-width:0}header.mopen .dd>div a{border-bottom:0;padding:6px 18px}header.mopen .dd>div a.sub{padding-right:34px}}
+@media(min-width:901px){header .nav{gap:2px 16px}.dd>div{max-height:70vh;overflow:auto}}
+.sitecards{max-width:1100px;margin:36px auto;padding:0 18px}
+.sitecards h2{margin:0 0 14px}
+.sitecards .g{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.sitecards a{display:block;padding:20px 18px;border:1px solid rgba(184,145,74,.45);border-radius:14px;background:rgba(184,145,74,.07);color:inherit;text-decoration:none;min-height:110px;transition:transform .15s,border-color .15s}
+.sitecards a:hover{transform:translateY(-3px);border-color:#b8914a}
+.sitecards b{display:block;font-size:1.2em;margin-bottom:6px}
+.sitecards span{font-size:.92em;opacity:.8}
+header{z-index:100!important}
+.sitecards .g{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
