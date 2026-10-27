@@ -362,3 +362,4 @@ header{z-index:100!important}
 @media(max-width:600px){.idband nav a{padding:10px 2px}}
 .idband{background:#ecd391 url(img/idband-bg.jpg) center/cover no-repeat;min-height:240px}
 @media(max-width:600px){.idband{background-position:center}}
+.idband p.idt{font-size:clamp(15px,2.3vw,18px);font-weight:400;margin:2px 0 8px;max-width:520px;line-height:1.5}
