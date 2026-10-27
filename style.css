@@ -292,3 +292,9 @@ html .chips button.on,html .shc button.on{background:#e0a82e!important;color:#1d
 #cbar,body>#cbar{background:#1d1a18!important}#cbar .cbo b{color:#e0a82e}
 html .btn.hs-dummy{}
 html[data-theme="night"] .btn,html[data-theme="night"] .hbtn{box-shadow:3px 3px 0 #000;border-color:#f0e6d4!important}
+
+/* option A: one primary button, secondary actions as links */
+.lnk{background:none;border:0;padding:0 6px;font:inherit;font-size:14px;color:#1f4f6b;text-decoration:underline;cursor:pointer;min-height:44px}
+html[data-theme="night"] .lnk{color:#9cc3dd}
+.bk .bkb{flex-direction:column;align-items:stretch;gap:0}.bk .bkb .qbuy{width:100%;flex:none}.bk .bkb .lnk{align-self:center}
+.bundle .lnk{margin-inline-start:6px}
