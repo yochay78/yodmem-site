@@ -366,3 +366,7 @@ header{z-index:100!important}
 @media(min-width:901px){header{display:flex!important;align-items:center;gap:18px}header .nav{order:1;justify-self:auto}header .hact{order:2;margin-inline-start:auto}header .brand{order:3;text-align:start}}
 @media(min-width:901px){header .brand{font-size:46px!important;line-height:1!important}header .brand small{font-size:.4em!important;margin-top:6px!important;letter-spacing:.02em}}
 @media(max-width:900px){header .brand{font-size:42px!important}header .brand small{font-size:.38em!important}}
+header .brand{display:flex!important;align-items:center;gap:12px}
+header .brand .blogo{height:64px;width:auto;flex:none}
+header .brand small{display:block}
+@media(max-width:900px){header .brand{justify-content:center}header .brand .blogo{height:56px}}
