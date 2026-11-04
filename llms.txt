@@ -1,6 +1,6 @@
 # יוד מם
 
-> יוד מם (Yod Mem, יוחאי מוצרי) הוא משורר, מחבר ספרי שירה בעברית ומוזיקאי. באתר אפשר לקנות את ספריו בביט.
+> יוד מם (Yod Mem, יוחאי מוצרי) הוא משורר ירושלמי, מחבר ארבעה ספרי שירה בעברית ומוזיקאי. כותב שירה עברית חדשה, ובהם "שבעה באוקטובר ומי ירפא את אלהים", יומן שירה נבואי בסגנון מקראי שנכתב בזמן אמת בין מאי לאוקטובר 2023. באתר אפשר לקרוא שירים שלמים בחינם ולקנות את הספרים בביט.
 
 ## ספרים
 - [בראשית ברא אלהים את השמים ואת הארץ ואותי](https://yodmem.com/read-genesis.html): ספר שירה, 49 ש"ח
@@ -14,12 +14,20 @@
 ## שירים
 - [שירים | יוד מם שירה עברית חדשה](https://yodmem.com/shirim.html): שירים שלמים מתוך הספרים
 
+## נושאי שירה
+- [שירה על שבעה באוקטובר](https://yodmem.com/nose-oct7.html): שירים על שביעי באוקטובר (7.10.2023), מתוך יומן השירה הנבואי
+- [שירה על נבואה](https://yodmem.com/nose-nevua.html): שירה נבואית בלשון מקראית
+- [שירה בסגנון מקראי ותנ"כי](https://yodmem.com/nose-mikrai.html): שירים בעברית חדשה הכתובים בלשון המקרא, מסודרים לפי מידת ההתאמה
+- [שירה על אהבה](https://yodmem.com/nose-ahava.html) · [על אלהים](https://yodmem.com/nose-elohim.html) · [על ירושלים](https://yodmem.com/nose-yerushalayim.html) · [על מוות ואובדן](https://yodmem.com/nose-mavet.html) · [על געגוע](https://yodmem.com/nose-gaagua.html) · [על זוגיות וגירושין](https://yodmem.com/nose-zugiyut.html)
+
 ## שירה עברית
 - [בתקשורת](https://yodmem.com/bitkshoret.html): כתבות על יוחאי מוצרי, יוד מם, קלאוס זינגר ויוחאי ומיכל
 - [מי הוא יוד מם](https://yodmem.com/yod-mem.html): עובדות, ספרים ונושאים
 - [מהי שירה עברית חדשה](https://yodmem.com/shira-ivrit-chadasha.html)
 - [שירה עברית מודרנית: משוררים וציוני דרך](https://yodmem.com/shira-ivrit-moderanit.html)
 - [איך קוראים שיר](https://yodmem.com/eich-korim-shir.html)
+- [שירה ומקרא: איך הלשון המקראית חיה בשירה העברית](https://yodmem.com/shira-umikra.html)
+- [ניקוד בשירה: למה מנקדים שיר ומתי אפשר בלי](https://yodmem.com/nikud-bashira.html)
 - [שאלות ותשובות על שירה עברית](https://yodmem.com/shaalot-utshuvot.html)
 
 ## גרפיטי
